@@ -109,28 +109,29 @@ function test_init(){
 
          
         <tr valign="top">
-        <th scope="row">Data Final</th>
+        <td style="width: 10%;";><label for="date_stop">Data Final :</label></td>
         <td><input id="date_stop"type="date" name="date_stop" value="<?php echo esc_attr( get_option('date_stop') ); ?>" /></td>
+		<td><input type='hidden' name='image_attachment_id' id='image_attachment_id' value='<?php echo get_option( 'image_attachment_id' ); ?>'></td>
+
         </tr>
-        
-        <tr valign="top">
        
-        <td><input type='hidden' name='image_attachment_id' id='image_attachment_id' value='<?php echo get_option( 'image_attachment_id' ); ?>'></td>
-        </tr>
     </table>
     
 	
 
+		<h2>Defina a imagem de banner</h2>
 		<div class='image-preview-wrapper'>
 			<img id='image-preview' src='<?php echo wp_get_attachment_url( get_option( 'image_attachment_id' ) ); ?>' height='100'>
 		</div>
 
-
+		<br/>
 		<input id="upload_image_button" type="button" class="button" value="<?php _e( 'Upload image' ); ?>" />
 		<input id="remove_image_text_button" type="button" class="button" value="<?php _e( 'Remover Crônometro' ); ?>" />
 	
 		<input type="submit" name="submit_image_selector" value="Save" class="button-primary">
-	</form><?php
+	</form>
+	
+	<?php
 }
 
 
