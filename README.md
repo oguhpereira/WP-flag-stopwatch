@@ -1,4 +1,4 @@
-# flag-stopwatch
+# WP-flag-stopwatch
 
 Pluggin para gerar Banner de oferta com Cronometro
 ![Pluggin flag-stopwatch no layout](https://github.com/oguhpereira/flag-stopwatch/blob/master/assets/icon.png)
