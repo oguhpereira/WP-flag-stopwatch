@@ -5,6 +5,7 @@ In the Flag Stopwatch you can set the banner and the time of the promotion.
 
 ![Pluggin flag-stopwatch no layout](https://github.com/oguhpereira/flag-stopwatch/blob/master/assets/icon.png)
 
+## Use this plugin
 
 ### How I install?
 
@@ -18,6 +19,6 @@ In the Flag Stopwatch you can set the banner and the time of the promotion.
 2. Select the banner image.
 3. Click on Save
 
-### Lincense
+## Lincense
 
 [MIT License](https://github.com/oguhpereira/Flag-Stopwatch/blob/master/LICENSE)
